@@ -28,4 +28,16 @@
 /****************/
 
 /* jouw code */
+nav{
+	color: white;
+	background-color: #49c5b1;
+	display: flex;
+	flex-direction: row;
+	font-family: sans-serif;
+}
 
+nav ul{
+	display: flex;
+	list-style: none;
+	gap: 37px;
+}
