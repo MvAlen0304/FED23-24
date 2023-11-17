@@ -28,16 +28,47 @@
 /****************/
 
 /* jouw code */
+body {
+	margin: 0;
+}
+
 nav{
 	color: white;
 	background-color: #49c5b1;
 	display: flex;
 	flex-direction: row;
 	font-family: sans-serif;
+	justify-content: center;
+	margin: auto;
+	align-items: center;
+	height: 63px;
+	gap: 17px;
 }
 
-nav ul{
+/* nav ul{
 	display: flex;
 	list-style: none;
 	gap: 37px;
+} */
+
+nav img:nth-of-type(1) {
+	height: 40px;
+}
+
+nav img:nth-of-type(2) {
+	height: 29px;
+}
+
+nav img:nth-of-type(3) {
+	height: 28px;
+}
+
+section {
+	max-width: 320px;
+	max-height: 235px;
+}
+
+section img {
+	height: 235px;
+	margin-left: -90px;
 }
