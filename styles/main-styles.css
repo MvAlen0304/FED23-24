@@ -1,0 +1,18 @@
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    --color-text-h2: #254a5d;
+    --color-text-p: black;
+    --color-text-dark-bg: white;
+	--color-background-main: white;
+    --color-background-dark: rgb(71,122,120);
+    --color-background-nav: #49c5b1;
+}
+
+body {
+	margin: 0;
+	max-width: 100%;
+	font-family: 'Gotham', poppins, sans-serif;
+}
