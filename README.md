@@ -94,10 +94,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Merle      | Ahmadriza          | Quinten    | Niels        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Hoe kan ik ervoor zorgen dat de carousel iedere keer 1 foto opschuift? | en dit             | en ik dit    | en dan ik dat    |
+  | Hoe kan ik op een nette manier fontface gebruiken om nieuwe fonts en font weights toe te voegen? | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
