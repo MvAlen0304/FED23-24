@@ -96,9 +96,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Merle      | Ahmadriza          | Quinten    | Niels        |
   | ---            | ---                | ---          | ---              |
-  | Hoe kan ik ervoor zorgen dat de carousel iedere keer 1 foto opschuift? | en dit             | en ik dit    | en dan ik dat    |
-  | Hoe kan ik op een nette manier fontface gebruiken om nieuwe fonts en font weights toe te voegen? | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe kan ik ervoor zorgen dat de carousel iedere keer 1 foto opschuift? | Ik wil weten hoe je een video/annimatie van de inspector kunt halen. Bij mijn site is dat nog ingewikkeld.              | Hoe maak ik dingen klikbaar zonder meer dan 1 html pagina?    | ik wil weten hoe ik de knoppen beter kan centreren en de specifieke vormgeving aan kan passen    |
+  | Hoe kan ik op een nette manier fontface gebruiken om nieuwe fonts en font weights toe te voegen? | Hoe de li in de nav zo tonen dat op mobiel formaat het verdwijnt in de dropdown menu en bij desktop wel zichrbaar is | Hoe spreek ik mijn gewenste images aan? Ze zitten allemaal boven een h3 dus mis kan ik daar wat mee. | weten hoe ik de verschillende afbeeldingen een eigen stijl kan geven op een makkelijke manier |
+  | ...            | ...               | Marquee, hoe werkt het met screenreader en hoe maak ik drie verschillende berichtjes?         | hoe kan ik de screenreader goed maken             |
 
 
   ### Verslag van meeting
