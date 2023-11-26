@@ -11,6 +11,20 @@
     --color-background-nav: #49c5b1;
 }
 
+@font-face {
+	font-family: 'Gotham';
+	src: url(../Gotham-Bold.otf) format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url(Gotham-Regular.otf) format('opentype');
+    font-weight: 00;
+    font-style: normal;
+}
+
 body {
 	margin: 0;
 	max-width: 100%;

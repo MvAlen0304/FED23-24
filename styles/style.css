@@ -21,10 +21,11 @@
 /****************/
 
 /* jouw code */
-@font-face {
+
+/* @font-face {
 	font-family: 'Gotham';
 	src: url(Gotham-Bold.otf) format('opentype');
-}
+} */
 
 /* body {
 	margin: 0;
@@ -143,12 +144,16 @@ section:nth-of-type(2) ul{
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	overscroll-behavior-x: contain;
+	/* overflow: hidden;
+	touch-action: none;
+	cursor:grab; */
 	gap: 1em;
 }
 
 section:nth-of-type(2) li {
 	display: flex;
 	flex-direction: column-reverse;
+	scroll-snap-stop: always;
 	scroll-snap-align: center;
 }
 
