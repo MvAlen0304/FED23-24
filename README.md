@@ -127,11 +127,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Merle      | Ahmadriza          | Quinten    | Niels        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | dit bespreken  | en dit             | en ik dit    | Hoe ik de horizontale box met text die automatisch beweegt maak    |
+  | en dat ook nog | dit als er tijd is | nog een punt | Hoe ik de footer apart aanspreek zonder de code al te veel aan te passen. |
+| ...            | ...                | ...          | Wanneer nou button en wanneer een link (precieze verschil)              |    |   |   | nth of type mag dat steeds?   |
 
 
   ### Verslag van meeting
