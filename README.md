@@ -131,7 +131,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | Hoe ik de horizontale box met text die automatisch beweegt maak    |
   | en dat ook nog | dit als er tijd is | nog een punt | Hoe ik de footer apart aanspreek zonder de code al te veel aan te passen. |
-| ...            | ...                | ...          | Wanneer nou button en wanneer een link (precieze verschil)              |    |   |   | nth of type mag dat steeds?   |
+| ...            | ...                | ...          | Wanneer nou button en wanneer een link (precieze verschil)              |   en dit |   en dit  | en dit  | nth of type mag dat steeds?   |
 
 
   ### Verslag van meeting
