@@ -129,9 +129,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Merle      | Ahmadriza          | Quinten    | Niels        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | Hoe ik de horizontale box met text die automatisch beweegt maak    |
-  | en dat ook nog | dit als er tijd is | nog een punt | Hoe ik de footer apart aanspreek zonder de code al te veel aan te passen. |
-| ...            | ...                | ...          | Wanneer nou button en wanneer een link (precieze verschil)              |   en dit |   en dit  | en dit  | nth of type mag dat steeds?   |
+  | Ik krijg met flexbox en grid mijn ‘li’ niet gecentreerd en op de plek waar ik hem wil, hoe kan ik dit oplossen?  | in m’n 3e section beter grid of flex gebruiken (responsieve)            | Meer duidelijkheid over het inzetten van flexbox op bepaalde elementen   | Hoe ik de horizontale box met text die automatisch beweegt maak    |
+  | Wat is een mooie volgorde om mijn css in te schrijven? Sanne liet zien welke volgorde hij gebruikte, en hoe weet ik precies wat er onder welke categorie valt? | ik wil m’n video automatisch laten afspelen | De fonts van sanrio er in krijgen, zijn moeilijk te vinden | Hoe ik de footer apart aanspreek zonder de code al te veel aan te passen. |
+| ...            | Mijn nav ook zichtbaar houden tijdens scrollen hiervoor position fixed/absolute?                | De form over de hele breedte te laten spannen          | Wanneer nou button en wanneer een link (precieze verschil)              |  en dit |   en dit  | en dit  | nth of type mag dat steeds?   |
 
 
   ### Verslag van meeting
