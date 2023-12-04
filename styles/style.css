@@ -72,7 +72,7 @@ section:first-of-type {
 	place-items: center;
 }
 
-section:first-of-type :nth-child(1) {
+section:first-of-type h2 {
 	color: var(--color-text-dark-bg);
 	text-align: center;
 	text-transform: uppercase;
@@ -83,12 +83,14 @@ section:first-of-type :nth-child(1) {
 	letter-spacing: .05em;
 }
 
-section:first-of-type :nth-child(2) {
+section:first-of-type p {
 	color: var(--color-text-dark-bg);
 	text-align: center;
 	margin: 1.2em 1.2em;
-	font-size: .85em;
-	line-height: 1.8em;
+	font-family: 'Cabin';
+	font-size: .95em;
+	font-weight: 300;
+	line-height: 1.6em;
 }
 
 section:first-of-type a {
@@ -108,7 +110,7 @@ section:first-of-type a:hover {
 	padding: 1em 3em;
 	margin-bottom: 3em;
 	transition: .5s;
-	background-color: var(--color-background);
+	background-color: var(--color-background-main);
 	text-decoration: none;
 	box-shadow: 0 0 0 .25em hsl(170, 52%, 53%);
 }
@@ -121,6 +123,10 @@ section:first-of-type img {
 	margin: -.4em 0;
 	grid-row-start: 1;
 }
+
+
+/* TWEEDE SECTION
+RECIPES OF THE WEEK */
 
 section:nth-of-type(2) {
 	width: 100%;
