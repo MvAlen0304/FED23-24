@@ -33,6 +33,8 @@
 	font-family: 'Gotham', poppins, sans-serif;
 } */
 
+/* NAVIGATIE */
+
 nav{
 	color: var(--color-text-dark-bg);
 	background-color: var(--color-background-nav);
@@ -46,11 +48,11 @@ nav{
 	gap: 17px;
 }
 
-/* nav ul{
+nav ul{
 	display: flex;
 	list-style: none;
 	gap: 37px;
-} */
+}
 
 nav img:nth-of-type(1) {
 	height: 40px;
@@ -60,9 +62,80 @@ nav img:nth-of-type(2) {
 	height: 29px;
 }
 
-nav img:nth-of-type(3) {
+/* HAMBURGER MENU 
+https://codepen.io/shooft/pen/BaMVzOo*/
+
+nav button {
 	height: 28px;
 }
+
+nav button {
+	/* geen standaard vormgeving (die komt mee met het besturingssysteem) */
+	  appearance:none;
+	  border:none;
+	  background-color: var(--color-background-nav);
+	  
+	  /* niet het standaard font van de button gebruiken */
+	  font-size:1em;
+	  font-family:saira;
+	  
+	  width:2.5em;
+	  aspect-ratio:1; /* vierkant */
+	  
+	  /* een grid van 1 kolom (en 1 rij) */
+	  display:grid;
+	  /* de kinderen in het midden van hun gridcel */
+	  place-items:center;
+  }
+  
+  
+  nav button span {
+	  display:block;
+	  width:1.5em;
+	  height:.2em;
+	  
+	  background-color:white;
+	  
+	  /* alledrie de spans in dezelfde gridcel */
+	  /* en daarmee bovenop elkaar */
+	  grid-column-start:1;
+	  grid-row-start:1;
+	  
+	  transition:.3s;
+  }
+  
+  
+  nav button span:nth-of-type(1) {
+	  translate:0 -.5em; /* beetje naar boven */
+  }
+  
+  /* nav button span:nth-of-type(2) {
+	  /* niets nodig */
+  /* } */
+  
+  nav button span:nth-of-type(3) {
+	  translate:0 .5em; /* beetje naar beneden */
+  }
+  
+  
+  nav button.open span:nth-of-type(1) {
+	  translate:0 0; /* weer in het midden */
+	  rotate:45deg; /* draaien */
+	  scale:1.25 1; /* beetje langer */
+  }
+  
+  nav button.open span:nth-of-type(2) {
+	  scale:0 1; /* plat in de x-richting */
+  }
+  
+  nav button.open span:nth-of-type(3) {
+	  translate:0 0;
+	  rotate:-45deg;
+	  scale:1.25 1;
+  }
+
+/* EERSTE SECTION
+CHRISTMAS */
 
 section:first-of-type {
 	width: 100%;
@@ -74,12 +147,7 @@ section:first-of-type {
 
 section:first-of-type h2 {
 	color: var(--color-text-dark-bg);
-	text-align: center;
-	text-transform: uppercase;
 	margin: .9em 1.3em -.2em 1.3em;
-	line-height: 1.2em;
-	font-size: 1.6em;
-	font-weight: 900;
 	letter-spacing: .05em;
 }
 
@@ -87,14 +155,11 @@ section:first-of-type p {
 	color: var(--color-text-dark-bg);
 	text-align: center;
 	margin: 1.2em 1.2em;
-	font-family: 'Cabin';
-	font-size: .95em;
-	font-weight: 300;
-	line-height: 1.6em;
 }
 
 section:first-of-type a {
 	color: var(--color-text-dark-bg);
+	font-family: 'Gilroy', sans-serif;
 	font-weight: 700;
 	font-size: 1em;
 	padding: 1em 3em;
@@ -134,12 +199,7 @@ section:nth-of-type(2) {
 
 section:nth-of-type(2) h2 {
 	color: var(--color-text-h2);
-	text-align: center;
-	font-weight: 900;
-	text-transform: uppercase;
-	font-size: 1.9em;
 	margin: 1.7em 1em 1em 1em;
-	line-height: 1em;
 }
 
 section:nth-of-type(2) ul{
@@ -171,17 +231,15 @@ section:nth-of-type(2) img {
 	border: none;
 }
 
+/* DERDE SECTION
+LATEST */
+
 /* section:nth-of-type(3) {
 } */
 
 section:nth-of-type(3) h2{
 	color: var(--color-text-h2);
-	text-align: center;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 1.9em;
-	margin: 1em 1em 1em 1em;
-	line-height: 1em;
+	margin: 1em;
 }
 
 section:nth-of-type(3) ul{
@@ -207,7 +265,41 @@ section:nth-of-type(3) img {
 }
 
 section:nth-of-type(3) h3 {
-	font-weight: 300;
 	font-size: .8em;
 	margin-bottom: 1em;
+}
+
+/* VIERDE SECTION
+TRENDING RECIPES */
+
+section:nth-of-type(4) ul{
+	list-style: none;
+	padding: 0 0.4em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 0.4em;
+}
+
+section:nth-of-type(4) h2{
+	color: var(--color-text-h2)
+}
+
+section:nth-of-type(4) ul h3{
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	font-size: .8em;
+	margin: 0 .7em 0 0;
+}
+
+section:nth-of-type(4) ul a{
+	display: inline-block;
+	text-decoration: none;
+	padding: .5em 1em;
+	background-color: var(--color-background-dark);
+	color: var(--color-text-dark-bg);
+	text-transform: uppercase;
+	font-size: .7em;
+	font-family: 'Poppins', sans-serif;
 }

@@ -55,9 +55,38 @@
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'Poppins';
+	src: url(../fonts/Poppins-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
 body {
 	margin: 0;
 	max-width: 100%;
     width: 100%;
 	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7em;
+	font-weight: 900;
+    line-height: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Cabin';
+	font-weight: 300;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+	font-size: .95em;
+	font-weight: 300;
+	line-height: 1.6em;
 }
