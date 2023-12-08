@@ -1,141 +1,11 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
-}
 
 
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-/* :root {
-    --color-text:#111;
-	--color-background:#eee;
-} */
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
-/* @font-face {
-	font-family: 'Gotham';
-	src: url(Gotham-Bold.otf) format('opentype');
-} */
-
-/* body {
-	margin: 0;
-	max-width: 100%;
-	font-family: 'Gotham', poppins, sans-serif;
-} */
-
-/* NAVIGATIE */
-
-nav{
-	color: var(--color-text-dark-bg);
-	background-color: var(--color-background-nav);
-	display: flex;
-	flex-direction: row;
-	font-family: sans-serif;
-	justify-content: center;
-	margin: auto;
-	align-items: center;
-	height: 63px;
-	gap: 17px;
-}
-
-nav ul{
-	display: flex;
-	list-style: none;
-	gap: 37px;
-}
-
-nav img:nth-of-type(1) {
-	height: 40px;
-}
-
-nav img:nth-of-type(2) {
-	height: 29px;
-}
-
-/* HAMBURGER MENU 
-https://codepen.io/shooft/pen/BaMVzOo*/
-
-nav button {
-	height: 28px;
-}
-
-nav button {
-	/* geen standaard vormgeving (die komt mee met het besturingssysteem) */
-	  appearance:none;
-	  border:none;
-	  background-color: var(--color-background-nav);
-	  
-	  /* niet het standaard font van de button gebruiken */
-	  font-size:1em;
-	  font-family:saira;
-	  
-	  width:2.5em;
-	  aspect-ratio:1; /* vierkant */
-	  
-	  /* een grid van 1 kolom (en 1 rij) */
-	  display:grid;
-	  /* de kinderen in het midden van hun gridcel */
-	  place-items:center;
-  }
-  
-  
-  nav button span {
-	  display:block;
-	  width:1.5em;
-	  height:.2em;
-	  
-	  background-color:white;
-	  
-	  /* alledrie de spans in dezelfde gridcel */
-	  /* en daarmee bovenop elkaar */
-	  grid-column-start:1;
-	  grid-row-start:1;
-	  
-	  transition:.3s;
-  }
-  
-  
-  nav button span:nth-of-type(1) {
-	  translate:0 -.5em; /* beetje naar boven */
-  }
-  
-  /* nav button span:nth-of-type(2) {
-	  /* niets nodig */
-  /* } */
-  
-  nav button span:nth-of-type(3) {
-	  translate:0 .5em; /* beetje naar beneden */
-  }
-  
-  
-  nav button.open span:nth-of-type(1) {
-	  translate:0 0; /* weer in het midden */
-	  rotate:45deg; /* draaien */
-	  scale:1.25 1; /* beetje langer */
-  }
-  
-  nav button.open span:nth-of-type(2) {
-	  scale:0 1; /* plat in de x-richting */
-  }
-  
-  nav button.open span:nth-of-type(3) {
-	  translate:0 0;
-	  rotate:-45deg;
-	  scale:1.25 1;
-  }
-
-/* EERSTE SECTION
-CHRISTMAS */
+/****************************/
+/* EERSTE SECTION CHRISTMAS */
+/****************************/
 
 section:first-of-type {
 	width: 100%;
@@ -159,7 +29,7 @@ section:first-of-type p {
 
 section:first-of-type a {
 	color: var(--color-text-dark-bg);
-	font-family: 'Gilroy', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-weight: 700;
 	font-size: 1em;
 	padding: 1em 3em;
@@ -190,8 +60,9 @@ section:first-of-type img {
 }
 
 
-/* TWEEDE SECTION
-RECIPES OF THE WEEK */
+/**************************************/
+/* TWEEDE SECTION RECIPES OF THE WEEK */
+/**************************************/
 
 section:nth-of-type(2) {
 	width: 100%;
@@ -231,11 +102,10 @@ section:nth-of-type(2) img {
 	border: none;
 }
 
-/* DERDE SECTION
-LATEST */
 
-/* section:nth-of-type(3) {
-} */
+/***********************/
+/* DERDE SECTION LATEST*/
+/***********************/
 
 section:nth-of-type(3) h2{
 	color: var(--color-text-h2);
@@ -269,8 +139,10 @@ section:nth-of-type(3) h3 {
 	margin-bottom: 1em;
 }
 
-/* VIERDE SECTION
-TRENDING RECIPES */
+
+/***********************************/
+/* VIERDE SECTION TRENDING RECIPES */
+/***********************************/
 
 section:nth-of-type(4) ul{
 	list-style: none;

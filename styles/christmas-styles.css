@@ -1,0 +1,38 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+
+/******************/
+/* EERSTE SECTION */
+/******************/
+
+section:first-of-type {
+    background-color: var(--color-background-christmas);
+    color: var(--color-text-dark-bg);
+    text-align: center;
+}
+
+section:first-of-type h1 {
+    background-color: var(--color-background-nav);
+    margin: auto;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.4em;
+    padding: .4em;
+}
+
+section:first-of-type img{
+    max-width: 100%;
+}
+
+section:first-of-type p {
+    margin: 1em;
+}
+
+section:first-of-type a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text-dark-bg);
+    background-color: var(--color-background-orange);
+    padding: 1em 2em;
+    border-radius: 5em;
+}
