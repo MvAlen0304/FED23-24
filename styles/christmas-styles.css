@@ -22,7 +22,9 @@ section:first-of-type h1 {
 }
 
 section:first-of-type img{
-    max-width: 100%;
+    width: 100%;
+    max-height: 235px;
+    object-fit: cover;
 }
 
 section:first-of-type p {
@@ -39,6 +41,97 @@ section:first-of-type a {
     padding: 1em 2.5em;
     border-radius: 5em;
 }
+
+/* section:first-of-type {
+    background-color: var(--color-background-christmas);
+    color: var(--color-text-dark-bg);
+    text-align: center;
+    height: 36em;
+    display: grid;
+    place-items: center;
+}
+
+section:first-of-type h1 {
+    background-color: var(--color-background-menu);
+    margin: auto;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.4em;
+    padding: .4em;
+    width: 100%;
+}
+
+section:first-of-type h2 {
+    color: var(--color-text-dark-bg);
+    margin: .9em 1.3em -.2em 1.3em;
+    letter-spacing: .05em;
+}
+
+section:first-of-type img {
+    width: 100%;
+    max-height: 235px;
+    object-fit: cover;
+}
+
+section:first-of-type p {
+    margin: 0 1em;
+}
+
+section:first-of-type a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text-dark-bg);
+    background-color: var(--color-background-orange);
+    margin: 1em 0;
+    padding: 1em 2.5em;
+    border-radius: 5em;
+}
+
+@media (width > 375px) {
+    section:first-of-type img {
+        height: auto;
+    }
+}
+
+@media (width > 675px) {
+    section:first-of-type {
+        margin: 2em 4em;
+    }
+}
+
+@media (width > 900px) {
+    section:first-of-type {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        height: auto;
+    }
+
+    section:first-of-type img {
+        grid-column-start: 1/2;
+        grid-row: 2 / span 3;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    section:first-of-type h2 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    section:first-of-type p {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    section:first-of-type a {
+        grid-column: 2;
+        grid-row: 4;
+    }
+} */
+
+
+
 
 /*******************************************/
 /* TWEEDE SECTION, BUDGET FRIENDLY RECIPES */
@@ -78,6 +171,7 @@ section:nth-of-type(2) li:nth-of-type(1) img {
 
 section:nth-of-type(2) li:nth-of-type(2) img {
     order: -10;
+    width: 100%;
 }
 
 section:nth-of-type(2) ul h3 {
@@ -92,6 +186,10 @@ section:nth-of-type(2) ul p {
     font-size: 1.1em;
     margin: 0 1em 1em 1em;
     line-height: 1.3em;
+}
+
+@media (min-width: 775px) {
+    
 }
 
 /****************************************/
