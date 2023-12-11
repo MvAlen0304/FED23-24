@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepage  
-  <img src="readme-images/jamieoliver-homepage.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/jamieoliver-homepage.png" width="375px" alt="De homepagina van de Jamie Oliver website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Christmas 
-  <img src="readme-images/jamieoliver-christmas.png" width="375px" alt="omschrijving van de pagina">
+  Christmas page
+  <img src="readme-images/jamieoliver-christmas.png" width="375px" alt="De christmas pagina van de Jamie Oliver website">
  
 </details>
 
@@ -58,6 +58,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  - De website van Jamie Oliver werkt niet heel goed met de screen reader
+  - De Jamie Oliver website was lastig om doorheen te tabben
+
 </details>
 
 
@@ -68,13 +71,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/volledige-pagina-breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/menu-readme.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -88,7 +88,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik weet niet hoe fontface werkt, de rest gaat wel goed
 
 
   ### Agenda voor meeting
@@ -104,10 +104,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - carousel is gelukt om te maken
+  - fontface is gelukt, wel goed opletten of de lettertypes het echt doen of dat ze gedownload zijn
 
 </details>
 
@@ -121,8 +119,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Nog wel moeite met flexbox en grid, af en toe doet de code niet wat ik wil
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -137,10 +134,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Comments toevoegen bij de code
 
 </details>
 
@@ -168,7 +162,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Ik loop er tegen aan dat de sections niet goed scalen. Ben het nu responsive aan het maken, maar ik merk dat dit niet heel goed gaat. 
+ In de toekomst ga ik het steeds per section responsive maken en niet als de website klaar is, ik denk dat ik hiermee minder fouten ga maken.
 
 
   ### Agenda voor meeting
@@ -225,12 +220,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://codepen.io/shooft/pen/BaMVzOo
+  2. ChatGPT, ik heb geen code laten schrijven door AI. Ik heb alleen dingen gevraagd die ik lastig vond om te googlen, met deze bevindingen heb ik zelf geexperimenteerd en mijn code geschreven.
 
 </details>

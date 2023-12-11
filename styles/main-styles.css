@@ -221,7 +221,7 @@ nav button span {
 
 
 nav button span:nth-of-type(1) {
-    translate: 0 -.5em;
+    translate: 0% -.5em;
     /* beetje naar boven */
 }
 
@@ -230,13 +230,13 @@ nav button span:nth-of-type(1) {
 /* } */
 
 nav button span:nth-of-type(3) {
-    translate: 0 .5em;
+    translate: 0% .5em;
     /* beetje naar beneden */
 }
 
 
 nav button.open span:nth-of-type(1) {
-    translate: 0 0;
+    translate: 0% 0;
     /* weer in het midden */
     rotate: 45deg;
     /* draaien */
@@ -250,25 +250,21 @@ nav button.open span:nth-of-type(2) {
 }
 
 nav button.open span:nth-of-type(3) {
-    translate: 0 0;
+    translate: 0% 0;
     rotate: -45deg;
     scale: 1.25 1;
 }
 
-@media (width > 900px) {
+@media (min-width: 1055px) {
 	nav button {
         display: none;
     }
 
     nav {
-        justify-content: flex-end;
+        justify-content: space-around;
     }
 
-    /* nav ul img:nth-of-type(1) {
-        justify-content: flex-end;
-    } */
-
-    nav ul a {
+    nav img:nth-of-type(2) a {
         order: 0;
     }
 
@@ -279,11 +275,15 @@ nav button.open span:nth-of-type(3) {
         width: fit-content; */
         order: 1;
         translate: 0% 0;
-        transition: .3s ease-in;
+        transition: 0s;
     }
 
     nav ul img {
         display: none;
+    }
+
+    nav img:nth-of-type(1) {
+        order: 3;
     }
 }
 
