@@ -141,7 +141,6 @@ section:nth-of-type(2) li {
 
 section:nth-of-type(2) h3 {
 	font-weight: 300; 
-	/* goede font weights nog downloaden en Cabin font*/
 }
 
 section:nth-of-type(2) img {
@@ -165,7 +164,7 @@ section:nth-of-type(3) h2 {
 
 section:nth-of-type(3) ul {
     display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax( 240px, 1fr));
 	margin: 0 .5em;
     padding: 0.7em;
 	width: 100vw;
@@ -173,16 +172,17 @@ section:nth-of-type(3) ul {
     list-style-type: none;
     gap: 0.6em;
     justify-content: center;
+	align-items: start;
 }
 
 section:nth-of-type(3) li {
 	position: relative;
 	top: 0;
     display: flex;
-    max-width: 100%;
+    width: 100%;
     flex-direction: column-reverse;
     margin: auto;
-	align-items: flex-start;
+	justify-content: start;
 	text-align: left;
 	border: red;
 }
@@ -190,7 +190,7 @@ section:nth-of-type(3) li {
 section:nth-of-type(3) img {
 	position: relative;
     object-fit: cover;
-	max-width: fit-content;
+	width: fit-content;
 	width: 100%;
 	height: auto;
 	top: 0;

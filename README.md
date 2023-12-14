@@ -148,7 +148,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - De website was moeilijk om doorheen te tabben
+  - De screen reader was wel duidelijk
+  - Veel design elementen zijn goed volgens de check.
 
 </details>
 
@@ -169,20 +171,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Merle      | Ahmadriza          | Quinten    | Niels        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe kan ik mijn navigatie laten werken?  | Hoe mijn video pauzeren (voor toegankelijkheid)        | Hoe zit het met een kleiner kopje boven een belangrijker kopje, is dit bv een h2 of h3 en welke moet eerst komen (css, html)    |- Mijn svg iconen vervormen steeds, hoe kan ik het formaat aanpassen want ze zijn beveiligd op de originele website?
+    |
+  | Wat is de beste manier om het responsief te maken? | de state visited link uitleggen | Hamburger menu, hoe verander ik het icoon | Hoe link je precies het lettertype in de juiste map, wel gedownload op laptop maar niet in juiste map. |
+  | Hoeveel moet je maken met JavaScript? Als je weinig hebt, wordt dat dan meegerekend in het eindcijfer?            | De footer responsieve maken             |Is het oke om layouts van lijstjes veel te veranderen voor bruikbaarhuid?          | Hoe zit het met H2 en H3, de belangrijkste tekst is een hogere h, ook al komt deze later op de website pas?              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - We hebben allemaal meegekeken naar de javascript code van Ahmadriza, dit ging over het pauzeren van de video.
+  - Al mijn vragen zijn beantwoord
 
 </details>
 
@@ -196,19 +197,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/homepage-fireshot.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/christmaspage-fireshot.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb geleerd hoe je een section (ul) kan laten scrollen, ook hoe de images iedere keer centreren. Ook merkte ik hoeveel ik had geleerd over flexbox en grid, toen ik bij de footer aankwam was deze meteen helemaal responsive in tegenstelling tot de rest van de pagina's.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/scrollen-geleerd.png" width="375px" alt="top">
+  <img src="readme-images/footer-geleerd.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Een aantal sections wilde niet helemaal responsive worden. Ze zijn op sommige widths wel goed en op andere staan ze niet goed
+
+  <img src="readme-images/Homepage-bummer.png" width="375px" alt="bummer">
+  <img src="readme-images/Christmas-bummer.png" width="375px" alt="bummer">
 </details>
 
 

@@ -6,13 +6,16 @@
     --color-text-h2: #254a5d;
     --color-text-p: #000000;
     --color-text-dark-bg: #ffffff;
+
     --color-text-orange: #E5481A;
     --color-text-grey: #383A36;
 
     /* background */
     --color-background-main: #ffffff;
     --color-background-dark: rgb(71, 122, 120);
+    
     --color-background-nav: #49c5b1;
+
     --color-background-christmas: #164734;
     --color-background-orange: #E5481A;
     --color-background-slider: #E2F8F0;
